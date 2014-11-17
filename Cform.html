@@ -1,0 +1,701 @@
+<?php session_start(); ?>
+
+<!doctype html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T35T</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script>
+  function variable(posicion){
+  po=posicion-1
+  a[po]=1
+}
+    </script>
+  </head>
+<body>
+
+<center><h3>Instrucciones:</h3></center>
+<p>Eval&uacute;e la importancia de los siguientes factores. Se&ntilde;ale la valoraci&oacute;n que considere oportuna. Si se considera que no est&aacute; en absoluto de acuerdo se&ntilde;ale  1 y cuando est&eacute; totalmente de acuerdo se&ntilde;ale 5.</p>
+
+
+<div class="table-responsive">
+
+<form name="formulario" action="form_save.php" method="POST">
+
+<!--============================================================================-->
+<!--============================================================================-->
+<!--============================ SECCIÓN 1 =====================================-->
+<!--============================================================================-->
+<!--============================================================================-->
+<!--============================================================================-->
+
+<fieldset>
+  <legend>A. Orientaci&oacute;n Emprendedora:</legend>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th width="900">Pregunta</th>
+        <th width="40">1</th>
+        <th width="40">2</th>
+        <th width="40">3</th>
+        <th width="40">4</th>
+        <th width="40">5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> 1. Mi empresa pone &eacute;nfasis en la investigaci&oacute;n, desarrollo e innovaci&oacute;n de productos y/o tecnolog&iacute;as.</td>
+        <td><center><input type="radio" name="AP1" value="1" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="AP1" value="2" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="AP1" value="3" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="AP1" value="4" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="AP1" value="5" onchange='variable(1)'></center></td>
+      </tr>
+      <tr>
+        <td> 2. En los &uacute;ltimos cinco a&ntilde;os mi empresa ha entrado en nuevos negocios y/o lanzado nuevos productos.</td>
+        <td><center><input type="radio" name="AP2" value="1" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="AP2" value="2" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="AP2" value="3" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="AP2" value="4" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="AP2" value="5" onchange='variable(2)'></center></td>
+      </tr>
+      <tr>
+        <td> 3. Mi empresa realiza habitualmente cambios significativos en las l&iacute;neas de productos y/o servicios. </td>
+        <td><center><input type="radio" name="AP3" value="1" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="AP3" value="2" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="AP3" value="3" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="AP3" value="4" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="AP3" value="5" onchange='variable(3)'></center></td>
+      </tr>
+      <tr>
+        <td> 4. Mi empresa suele responder a las acciones iniciadas por los competidores y rara vez es ella quien emprende las acciones inicialmente en el sector.</td>
+        <td><center><input type="radio" name="AP4" value="1" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="AP4" value="2" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="AP4" value="3" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="AP4" value="4" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="AP4" value="5" onchange='variable(4)'></center></td>
+      </tr>
+      <tr>
+        <td> 5. Mi empresa suele ser pionera en el desarrollo de nuevos productos, t&eacute;cnicas o tecnolog&iacute;as.</td>
+        <td><center><input type="radio" name="AP5" value="1" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="AP5" value="3" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="AP5" value="3" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="AP5" value="4" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="AP5" value="5" onchange='variable(5)'></center></td>
+      </tr>
+      <tr>
+        <td> 6. Mi empresa suele evitar el enfrentamiento con las empresas del sector, es decir, adopta una postura de &#8220;vive y deja vivir&#8220;.</td>
+        <td><center><input type="radio" name="AP6" value="1" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="AP6" value="2" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="AP6" value="3" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="AP6" value="4" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="AP6" value="5" onchange='variable(6)'></center></td>
+      </tr>
+      <tr>
+        <td> 7. Debido al dinamismo del entorno, mi empresa prefiere realizar inversiones incrementales, empezando por peque&ntilde;as inversiones y aumentando gradualmente el compromiso de recursos.</td>
+        <td><center><input type="radio" name="AP7" value="1" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="AP7" value="2" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="AP7" value="3" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="AP7" value="4" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="AP7" value="5" onchange='variable(7)'></center></td>
+      </tr>
+      <tr>
+        <td> 8. Mi empresa prefiere emprender proyectos de inversi&oacute;n de riesgo alto ya que las expectativas de ingresos son mayores.</td>
+        <td><center><input type="radio" name="AP8" value="1" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="AP8" value="2" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="AP8" value="3" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="AP8" value="4" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="AP8" value="5" onchange='variable(8)'></center></td>
+      </tr>
+      <tr>
+        <td> 9. Cuando mi empresa se enfrenta a una decisi&oacute;n con  cierto grado de incertidumbre, suele adoptar una postura conservadora con el fin de minimizar el riesgo de una decisi&oacute;n equivocada.</td>
+        <td><center><input type="radio" name="AP9" value="1" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="AP9" value="2" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="AP9" value="3" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="AP9" value="4" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="AP9" value="5" onchange='variable(9)'></center></td>
+      </tr>
+    </tbody>
+  </table>
+</fieldset>
+
+
+<!--============================================================================-->
+<!--============================================================================-->
+<!--============================ SECCIÓN 2 =====================================-->
+<!--============================================================================-->
+<!--============================================================================-->
+<!--============================================================================-->
+
+<!--
+
+<center><h3>Seccion 2: CAPACIDAD DE APRENDIZAJE ORGANIZATIVO</h3></center>
+<br><br>
+
+<fieldset>
+  <legend>Con respecto a la aportaci&oacute;n de ideas, la experimentaci&oacute;n y la creatividad:</legend>
+  <table>
+    <thead>
+      <tr>
+        <th width="900">Pregunta</th>
+        <th width="40">1</th>
+        <th width="40">2</th>
+        <th width="40">3</th>
+        <th width="40">4</th>
+        <th width="40">5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1. La gente recibe apoyo cuando presenta nuevas ideas.</td>
+        <td><center><input type="radio" name="2P1" value="1" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="2P1" value="2" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="2P1" value="3" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="2P1" value="4" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="2P1" value="5" onchange='variable(1)'></center></td>
+      </tr>
+      <tr>
+        <td>2. La iniciativa recibe a menudo una respuesta favorable, por lo que la gente se siente animada a plantear nuevas ideas.</td>
+        <td><center><input type="radio" name="2P2" value="1" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="2P2" value="2" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="2P2" value="3" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="2P2" value="4" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="2P2" value="5" onchange='variable(2)'></center></td>
+      </tr>
+    </tbody>
+  </table>
+</fieldset>
+
+<br><br>
+
+<fieldset>
+  <legend>Con respecto a la aceptaci&oacute;n del riesgo:</legend>
+  <table>
+    <thead>
+      <tr>
+        <th width="900">Pregunta</th>
+        <th width="40">1</th>
+        <th width="40">2</th>
+        <th width="40">3</th>
+        <th width="40">4</th>
+        <th width="40">5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>3. Se estimula a los trabajadores para que acepten riesgos.</td>
+        <td><center><input type="radio" name="2P3" value="1" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="2P3" value="2" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="2P3" value="3" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="2P3" value="4" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="2P3" value="5" onchange='variable(3)'></center></td>
+      </tr>
+      <tr>
+        <td>4. La gente a menudo se “lanza” hacia temas que desconoce.</td>
+        <td><center><input type="radio" name="2P4" value="1" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="2P4" value="2" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="2P4" value="3" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="2P4" value="4" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="2P4" value="5" onchange='variable(4)'></center></td>
+      </tr>
+      <tr>
+        <td>5. Se presentan habitualmente ideas que todav&iacute;a no han sido probadas.</td>
+        <td><center><input type="radio" name="2P5" value="1" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="2P5" value="2" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="2P5" value="3" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="2P5" value="4" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="2P5" value="5" onchange='variable(5)'></center></td>
+      </tr>
+    </tbody>
+  </table>
+</fieldset>
+
+<br><br>
+
+<fieldset>
+  <legend>Con respecto al entorno:</legend>
+  <table>
+    <thead>
+      <tr>
+        <th width="900">Pregunta</th>
+        <th width="40">1</th>
+        <th width="40">2</th>
+        <th width="40">3</th>
+        <th width="40">4</th>
+        <th width="40">5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>6. Es parte del trabajo de todos recoger informaci&oacute;n sobre lo que pasa fuera de la empresa.</td>
+        <td><center><input type="radio" name="2P6" value="1" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="2P6" value="2" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="2P6" value="3" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="2P6" value="4" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="2P6" value="5" onchange='variable(6)'></center></td>
+      </tr>
+      <tr>
+        <td>7. Tenemos sistemas y procedimientos para recibir, cotejar y compartir informaci&oacute;n del exterior de la empresa.</td>
+        <td><center><input type="radio" name="2P7" value="1" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="2P7" value="2" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="2P7" value="3" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="2P7" value="4" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="2P7" value="5" onchange='variable(7)'></center></td>
+      </tr>
+      <tr>
+        <td>8. Se alienta la interacci&oacute;n con el entorno.</td>
+        <td><center><input type="radio" name="2P8" value="1" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="2P8" value="2" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="2P8" value="3" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="2P8" value="4" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="2P8" value="5" onchange='variable(8)'></center></td>
+      </tr>
+    </tbody>
+  </table>
+</fieldset>
+
+<br><br>
+
+<fieldset>
+  <legend>Con respecto al dialogo, la comunicaci&oacute;n y el trabajo en equipo:</legend>
+  <table>
+    <thead>
+      <tr>
+        <th width="900">Pregunta</th>
+        <th width="40">1</th>
+        <th width="40">2</th>
+        <th width="40">3</th>
+        <th width="40">4</th>
+        <th width="40">5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> 9. A los empleados se les anima a comunicarse entre s&iacute;.</td>
+        <td><center><input type="radio" name="2P9" value="1" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="2P9" value="2" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="2P9" value="3" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="2P9" value="4" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="2P9" value="5" onchange='variable(9)'></center></td>
+      </tr>
+      <tr>
+        <td> 10. Hay una comunicaci&oacute;n abierta en los grupos de trabajo.</td>
+        <td><center><input type="radio" name="2P10" value="1" onchange='variable(10)'></center></td>
+        <td><center><input type="radio" name="2P10" value="2" onchange='variable(10)'></center></td>
+        <td><center><input type="radio" name="2P10" value="3" onchange='variable(10)'></center></td>
+        <td><center><input type="radio" name="2P10" value="4" onchange='variable(10)'></center></td>
+        <td><center><input type="radio" name="2P10" value="5" onchange='variable(10)'></center></td>
+      </tr>
+      <tr>
+        <td> 11. Los directivos facilitan la comunicaci&oacute;n.</td>
+        <td><center><input type="radio" name="2P11" value="1" onchange='variable(11)'></center></td>
+        <td><center><input type="radio" name="2P11" value="2" onchange='variable(11)'></center></td>
+        <td><center><input type="radio" name="2P11" value="3" onchange='variable(11)'></center></td>
+        <td><center><input type="radio" name="2P11" value="4" onchange='variable(11)'></center></td>
+        <td><center><input type="radio" name="2P11" value="5" onchange='variable(11)'></center></td>
+      </tr>
+      <tr>
+        <td> 12. El trabajo en equipo entre personas de distintos departamentos es una pr&aacute;ctica habitual.</td>
+        <td><center><input type="radio" name="2P12" value="1" onchange='variable(12)'></center></td>
+        <td><center><input type="radio" name="2P12" value="2" onchange='variable(12)'></center></td>
+        <td><center><input type="radio" name="2P12" value="3" onchange='variable(12)'></center></td>
+        <td><center><input type="radio" name="2P12" value="4" onchange='variable(12)'></center></td>
+        <td><center><input type="radio" name="2P12" value="5" onchange='variable(12)'></center></td>
+      </tr>
+    </tbody>
+  </table>
+</fieldset>
+
+-->
+
+<!--============================================================================-->
+<!--============================================================================-->
+<!--===========================| SECCIÓN 3 |====================================-->
+<!--============================================================================-->
+<!--============================================================================-->
+<!--============================================================================-->
+
+<!--
+
+<br><h3> Seccion 3: DESEMPE&Ntilde;O INNOVADOR</h3><br>
+
+<fieldset>
+  <legend>Eficacia de la innovaci&oacute;n de los productos:</legend>
+  <table>
+    <thead>
+      <tr>
+        <th width="900">Pregunta</th>
+        <th width="40">1</th>
+        <th width="40">2</th>
+        <th width="40">3</th>
+        <th width="40">4</th>
+        <th width="40">5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> 1. Reemplazo de los productos desfasados.</td>
+        <td><center><input type="radio" name="3P1" value="1" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="3P1" value="2" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="3P1" value="3" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="3P1" value="4" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="3P1" value="5" onchange='variable(1)'></center></td>
+      </tr>
+      <tr>
+        <td> 2. Ampliaci&oacute;n de la gama de productos.</td>
+        <td><center><input type="radio" name="3P2" value="1" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="3P2" value="2" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="3P2" value="3" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="3P2" value="4" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="3P2" value="5" onchange='variable(2)'></center></td>
+      </tr>
+      <tr>
+        <td> 3. Desarrollo de nuevas gamas de productos.</td>
+        <td><center><input type="radio" name="3P3" value="1" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="3P3" value="2" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="3P3" value="3" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="3P3" value="4" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="3P3" value="5" onchange='variable(3)'></center></td>
+      </tr>
+      <tr>
+        <td> 4. Desarrollo de productos respetuosos con el medio ambiente.</td>
+        <td><center><input type="radio" name="3P4" value="1" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="3P4" value="2" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="3P4" value="3" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="3P4" value="4" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="3P4" value="5" onchange='variable(4)'></center></td>
+      </tr>
+      <tr>
+        <td> 5. Evoluci&oacute;n de la cuota de mercado</td>
+        <td><center><input type="radio" name="3P5" value="1" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="3P5" value="2" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="3P5" value="3" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="3P5" value="4" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="3P5" value="5" onchange='variable(5)'></center></td>
+      </tr>
+      <tr>
+        <td> 6. Apertura de nuevos mercados exteriores</td>
+        <td><center><input type="radio" name="3P6" value="1" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="3P6" value="2" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="3P6" value="3" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="3P6" value="4" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="3P6" value="5" onchange='variable(6)'></center></td>
+      </tr>
+      <tr>
+        <td> 7. Apertura de nuevos mercados nacionales</td>
+        <td><center><input type="radio" name="3P7" value="1" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="3P7" value="2" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="3P7" value="3" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="3P7" value="4" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="3P7" value="5" onchange='variable(7)'></center></td>
+      </tr>
+    </tbody>
+  </table>
+</fieldset>
+
+<br><br>
+
+<fieldset>
+  <legend>Eficacia de la innovaci&oacute;n de los procesos:</legend>
+  <table>
+    <thead>
+      <tr>
+        <th width="900">Pregunta</th>
+        <th width="40">1</th>
+        <th width="40">2</th>
+        <th width="40">3</th>
+        <th width="40">4</th>
+        <th width="40">5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> 8. Mejora de la flexibilidad productiva</td>
+        <td><center><input type="radio" name="3P8" value="1" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="3P8" value="2" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="3P8" value="3" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="3P8" value="4" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="3P8" value="5" onchange='variable(8)'></center></td>
+      </tr>
+      <tr>
+        <td> 9. Disminuci&oacute;n de los costos de producci&oacute;n mediante reducci&oacute;n de los costos  labores por unidad.</td>
+        <td><center><input type="radio" name="3P9" value="1" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="3P9" value="2" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="3P9" value="3" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="3P9" value="4" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="3P9" value="5" onchange='variable(9)'></center></td>
+      </tr>
+      <tr>
+        <td> 10. Disminuci&oacute;n de los costos de producci&oacute;n mediante recortes en los consumos de materiales.</td>
+        <td><center><input type="radio" name="3P10" value="1" onchange='variable(10)'></center></td>
+        <td><center><input type="radio" name="3P10" value="2" onchange='variable(10)'></center></td>
+        <td><center><input type="radio" name="3P10" value="3" onchange='variable(10)'></center></td>
+        <td><center><input type="radio" name="3P10" value="4" onchange='variable(10)'></center></td>
+        <td><center><input type="radio" name="3P10" value="5" onchange='variable(10)'></center></td>
+      </tr>
+      <tr>
+        <td> 11. Disminuci&oacute;n de los costos de producci&oacute;n mediante recortes en el consumo de energ&iacute;a.</td>
+        <td><center><input type="radio" name="3P11" value="1" onchange='variable(11)'></center></td>
+        <td><center><input type="radio" name="3P11" value="2" onchange='variable(11)'></center></td>
+        <td><center><input type="radio" name="3P11" value="3" onchange='variable(11)'></center></td>
+        <td><center><input type="radio" name="3P11" value="4" onchange='variable(11)'></center></td>
+        <td><center><input type="radio" name="3P11" value="5" onchange='variable(11)'></center></td>
+      </tr>
+      <tr>
+        <td> 12. Disminuci&ocute;n de los costos de producci&oacute;n mediante reducci&oacute;n de la tasa de producci&oacute;n rechazada.</td>
+        <td><center><input type="radio" name="3P12" value="1" onchange='variable(12)'></center></td>
+        <td><center><input type="radio" name="3P12" value="2" onchange='variable(12)'></center></td>
+        <td><center><input type="radio" name="3P12" value="2" onchange='variable(12)'></center></td>
+        <td><center><input type="radio" name="3P12" value="3" onchange='variable(12)'></center></td>
+        <td><center><input type="radio" name="3P12" value="5" onchange='variable(12)'></center></td>
+      </tr>
+      <tr>
+        <td> 13. Disminuci&oacute;n de los costes de producci&oacute;n mediante reducci&oacute;n de los costos de dise&ntilde;o.</td>
+        <td><center><input type="radio" name="3P13" value="1" onchange='variable(13)'></center></td>
+        <td><center><input type="radio" name="3P13" value="2" onchange='variable(13)'></center></td>
+        <td><center><input type="radio" name="3P13" value="3" onchange='variable(13)'></center></td>
+        <td><center><input type="radio" name="3P13" value="4" onchange='variable(13)'></center></td>
+        <td><center><input type="radio" name="3P13" value="5" onchange='variable(13)'></center></td>
+      </tr>
+      <tr>
+        <td> 14. Disminuci&oacute;n de los costos de producci&oacute;n mediante reducci&oacute;n del ciclo de fabricaci&oacute;n.</td>
+        <td><center><input type="radio" name="3P14" value="1" onchange='variable(14)'></center></td>
+        <td><center><input type="radio" name="3P14" value="2" onchange='variable(14)'></center></td>
+        <td><center><input type="radio" name="3P14" value="3" onchange='variable(14)'></center></td>
+        <td><center><input type="radio" name="3P14" value="4" onchange='variable(14)'></center></td>
+        <td><center><input type="radio" name="3P14" value="5" onchange='variable(14)'></center></td>
+      </tr>
+      <tr>
+        <td> 15. Mejora de la calidad del producto.</td>
+        <td><center><input type="radio" name="3P15" value="1" onchange='variable(15)'></center></td>
+        <td><center><input type="radio" name="3P15" value="2" onchange='variable(15)'></center></td>
+        <td><center><input type="radio" name="3P15" value="3" onchange='variable(15)'></center></td>
+        <td><center><input type="radio" name="3P15" value="4" onchange='variable(15)'></center></td>
+        <td><center><input type="radio" name="3P15" value="5" onchange='variable(15)'></center></td>
+      </tr>
+      <tr>
+        <td> 16. Mejora de las condiciones laborales.</td>
+        <td><center><input type="radio" name="3P16" value="1" onchange='variable(16)'></center></td>
+        <td><center><input type="radio" name="3P16" value="2" onchange='variable(16)'></center></td>
+        <td><center><input type="radio" name="3P16" value="3" onchange='variable(16)'></center></td>
+        <td><center><input type="radio" name="3P16" value="4" onchange='variable(16)'></center></td>
+        <td><center><input type="radio" name="3P16" value="5" onchange='variable(16)'></center></td>
+      </tr>
+      <tr>
+        <td> 17. Reducci&oacute;n de los da&ntilde;os medio-ambientales. </td>
+        <td><center><input type="radio" name="3P17" value="1" onchange='variable(17)'></center></td>
+        <td><center><input type="radio" name="3P17" value="2" onchange='variable(17)'></center></td>
+        <td><center><input type="radio" name="3P17" value="3" onchange='variable(17)'></center></td>
+        <td><center><input type="radio" name="3P17" value="4" onchange='variable(17)'></center></td>
+        <td><center><input type="radio" name="3P17" value="5" onchange='variable(17)'></center></td>
+      </tr>
+    </tbody>
+  </table>
+</fieldset>
+
+<br><br>
+
+<fieldset>
+  <legend>Eficacia de la innovaci&oacute;n de productos: </legend>
+  <table>
+    <thead>
+      <tr>
+        <th width="900">Pregunta</th>
+        <th width="40">1</th>
+        <th width="40">2</th>
+        <th width="40">3</th>
+        <th width="40">4</th>
+        <th width="40">5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> 18. Duraci&oacute;n media de los proyectos de innovaci&oacute;n (p.e nuevos productos, nuevos componentes)</td>
+        <td><center><input type="radio" name="3P18" value="1" onchange='variable(18)'></center></td>
+        <td><center><input type="radio" name="3P18" value="2" onchange='variable(18)'></center></td>
+        <td><center><input type="radio" name="3P18" value="3" onchange='variable(18)'></center></td>
+        <td><center><input type="radio" name="3P18" value="4" onchange='variable(18)'></center></td>
+        <td><center><input type="radio" name="3P18" value="5" onchange='variable(18)'></center></td>
+      </tr>
+      <tr>
+        <td> 19. Dedicaci&oacute;n para el desarrollo de proyectos de innovaci&oacute;n (horas de trabajo de todas las personas implicadas).</td>
+        <td><center><input type="radio" name="3P19" value="1" onchange='variable(19)'></center></td>
+        <td><center><input type="radio" name="3P19" value="2" onchange='variable(19)'></center></td>
+        <td><center><input type="radio" name="3P19" value="3" onchange='variable(19)'></center></td>
+        <td><center><input type="radio" name="3P19" value="4" onchange='variable(19)'></center></td>
+        <td><center><input type="radio" name="3P19" value="5" onchange='variable(19)'></center></td>
+      </tr>
+      <tr>
+        <td> 20. Costos medios por proyecto de innovaci&oacute;n.</td>
+        <td><center><input type="radio" name="3P20" value="1" onchange='variable(20)'></center></td>
+        <td><center><input type="radio" name="3P20" value="2" onchange='variable(20)'></center></td>
+        <td><center><input type="radio" name="3P20" value="3" onchange='variable(20)'></center></td>
+        <td><center><input type="radio" name="3P20" value="4" onchange='variable(20)'></center></td>
+        <td><center><input type="radio" name="3P20" value="5" onchange='variable(20)'></center></td>
+      </tr>
+      <tr>
+        <td> 21. Grado de satisfacci&oacute;n general con la eficiencia de los proyectos de innovaci&oacute;n.</td>
+        <td><center><input type="radio" name="3P21" value="1" onchange='variable(21)'></center></td>
+        <td><center><input type="radio" name="3P21" value="2" onchange='variable(21)'></center></td>
+        <td><center><input type="radio" name="3P21" value="3" onchange='variable(21)'></center></td>
+        <td><center><input type="radio" name="3P21" value="4" onchange='variable(21)'></center></td>
+        <td><center><input type="radio" name="3P21" value="5" onchange='variable(21)'></center></td>
+      </tr>
+    </tbody>
+  </table>
+</fieldset>
+
+-->
+
+<!--============================================================================-->
+<!--============================================================================-->
+<!--============================ SECCIÓN 4 =====================================-->
+<!--============================================================================-->
+<!--============================================================================-->
+<!--============================================================================-->
+
+<!--
+
+<br><h3>Seccion 4: DESEMPE&Ntilde;O DE LA EMPRESA</h3><br>
+
+<fieldset>
+  <legend>## </legend>
+  <table>
+    <thead>
+      <tr>
+        <th width="400">Pregunta</th>
+        <th width="60">0-15%</th>
+        <th width="60">16-30%</th>
+        <th width="60">31-45%</th>
+        <th width="60">46-60%</th>
+        <th width="60">61-75%</th>
+        <th width="60">76-90%</th>
+        <th width="60">91-100%</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> 1. Margen sobre ventas (se calcula dividiendo utilidad neta entre  ventas totales)</td>
+        <td><center><input type="radio" name="4P1" value="1" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="4P1" value="2" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="4P1" value="3" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="4P1" value="4" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="4P1" value="5" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="4P1" value="6" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="4P1" value="7" onchange='variable(1)'></center></td>
+      </tr>
+      <tr>
+        <td>2. Porcentaje de crecimiento de las ventas del &uacute;ltimo a&ntilde;o.</td>
+        <td><center><input type="radio" name="4P2" value="1" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="4P2" value="2" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="4P2" value="3" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="4P2" value="4" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="4P2" value="5" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="4P2" value="6" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="4P2" value="7" onchange='variable(2)'></center></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <thead>
+      <tr>
+        <th width="400">Pregunta</th>
+        <th width="60">1-10%</th>
+        <th width="60">11-20%</th>
+        <th width="60">21-30%</th>
+        <th width="60">31-40%</th>
+        <th width="60">41-50%</th>
+        <th width="60">51-60%</th>
+        <th width="60">60% o m&aacute;s</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> 3. ROE (Retuns on equity o rentabilidad financiera se calcula como el Beneficio  neto despu&eacute;s de Impuestos/Fondos propios).</td>
+        <td><center><input type="radio" name="4P3" value="1" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="4P3" value="2" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="4P3" value="3" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="4P3" value="4" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="4P3" value="5" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="4P3" value="6" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="4P3" value="7" onchange='variable(3)'></center></td>
+      </tr>
+      <tr>
+        <td> 4. ROI (Return on Investment o Retorno sobre la inversi&oacute;n se calcula dividiendo el Beneficio neto despu&eacute;s de Impuestos/Activo Total).</td>
+        <td><center><input type="radio" name="4P4" value="1" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="4P4" value="2" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="4P4" value="3" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="4P4" value="4" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="4P4" value="5" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="4P4" value="6" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="4P4" value="7" onchange='variable(4)'></center></td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <table>
+    <thead>
+      <tr>
+        <th width="600"></th>
+        <th width="200"></th>
+      </tr>
+    </thead>
+      <tbody>
+        <tr>
+        <td> 5. Beneficio neto (se obtiene al restar del ingreso total por ventas los costos, los gasto, intereses e impuestos).</td>
+        <td><input type="text" name="P5" size="40"></td>
+      </tr>
+      </tbody>
+  </table>
+</fieldset>
+
+<br><br>
+
+<fieldset>
+  <legend>Satisfacci&oacute;n con el desempe&ntilde;o de mi empresa </legend>
+  <table>
+    <thead>
+      <tr>
+        <th width="900">Pregunta</th>
+        <th width="40">1</th>
+        <th width="40">2</th>
+        <th width="40">3</th>
+        <th width="40">4</th>
+        <th width="40">5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> 6. Considero que en mi empresa se han logrado los objetivos previamente fijados.</td>
+        <td><center><input type="radio" name="4P6" value="1" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="4P6" value="2" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="4P6" value="3" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="4P6" value="4" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="4P6" value="5" onchange='variable(6)'></center></td>
+      </tr>
+      <tr>
+        <td> 7. Considero que mi empresa ha tenido &eacute;xito de los nuevos productos lanzados al exterior.</td>
+        <td><center><input type="radio" name="4P7" value="1" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="4P7" value="2" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="4P7" value="3" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="4P7" value="4" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="4P7" value="5" onchange='variable(7)'></center></td>
+      </tr>
+    </tbody>
+  </table>
+</fieldset>
+
+-->
+
+<input type="submit" class="btn btn-default" value="Siguiente secci&oacute;n">
+</div>
+
+
+</form>
+
+</body>
+</html>

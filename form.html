@@ -1,0 +1,122 @@
+<?php session_start(); ?>
+
+<!doctype html>
+<html class="no-js" lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T35T</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <script>
+  function variable(posicion){
+  po=posicion-1
+  a[po]=1
+}
+    </script>
+  </head>
+<body>
+
+<center><h3>Instrucciones:</h3></center>
+<p>Eval&uacute;e la importancia de los siguientes factores. Se&ntilde;ale la valoraci&oacute;n que considere oportuna. Si se considera que no est&aacute; en absoluto de acuerdo se&ntilde;ale  1 y cuando est&eacute; totalmente de acuerdo se&ntilde;ale 5.</p>
+
+
+<div class="table-responsive">
+<form name="seccion1" action="seccion1_save.php" method="POST">
+<fieldset>
+  <legend>A. Orientaci&oacute;n Emprendedora:</legend>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th width="900">Pregunta</th>
+        <th width="40">1</th>
+        <th width="40">2</th>
+        <th width="40">3</th>
+        <th width="40">4</th>
+        <th width="40">5</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td> 1. Mi empresa pone &eacute;nfasis en la investigaci&oacute;n, desarrollo e innovaci&oacute;n de productos y/o tecnolog&iacute;as.</td>
+        <td><center><input type="radio" name="P1" value="1" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="P1" value="2" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="P1" value="3" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="P1" value="4" onchange='variable(1)'></center></td>
+        <td><center><input type="radio" name="P1" value="5" onchange='variable(1)'></center></td>
+      </tr>
+      <tr>
+        <td> 2. En los &uacute;ltimos cinco a&ntilde;os mi empresa ha entrado en nuevos negocios y/o lanzado nuevos productos.</td>
+        <td><center><input type="radio" name="P2" value="1" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="P2" value="2" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="P2" value="3" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="P2" value="4" onchange='variable(2)'></center></td>
+        <td><center><input type="radio" name="P2" value="5" onchange='variable(2)'></center></td>
+      </tr>
+      <tr>
+        <td> 3. Mi empresa realiza habitualmente cambios significativos en las l&iacute;neas de productos y/o servicios. </td>
+        <td><center><input type="radio" name="P3" value="1" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="P3" value="2" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="P3" value="3" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="P3" value="4" onchange='variable(3)'></center></td>
+        <td><center><input type="radio" name="P3" value="5" onchange='variable(3)'></center></td>
+      </tr>
+      <tr>
+        <td> 4. Mi empresa suele responder a las acciones iniciadas por los competidores y rara vez es ella quien emprende las acciones inicialmente en el sector.</td>
+        <td><center><input type="radio" name="P4" value="1" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="P4" value="2" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="P4" value="3" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="P4" value="4" onchange='variable(4)'></center></td>
+        <td><center><input type="radio" name="P4" value="5" onchange='variable(4)'></center></td>
+      </tr>
+      <tr>
+        <td> 5. Mi empresa suele ser pionera en el desarrollo de nuevos productos, t&eacute;cnicas o tecnolog&iacute;as.</td>
+        <td><center><input type="radio" name="P5" value="1" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="P5" value="3" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="P5" value="3" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="P5" value="4" onchange='variable(5)'></center></td>
+        <td><center><input type="radio" name="P5" value="5" onchange='variable(5)'></center></td>
+      </tr>
+      <tr>
+        <td> 6. Mi empresa suele evitar el enfrentamiento con las empresas del sector, es decir, adopta una postura de &#8220;vive y deja vivir&#8220;.</td>
+        <td><center><input type="radio" name="P6" value="1" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="P6" value="2" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="P6" value="3" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="P6" value="4" onchange='variable(6)'></center></td>
+        <td><center><input type="radio" name="P6" value="5" onchange='variable(6)'></center></td>
+      </tr>
+      <tr>
+        <td> 7. Debido al dinamismo del entorno, mi empresa prefiere realizar inversiones incrementales, empezando por peque&ntilde;as inversiones y aumentando gradualmente el compromiso de recursos.</td>
+        <td><center><input type="radio" name="P7" value="1" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="P7" value="2" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="P7" value="3" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="P7" value="4" onchange='variable(7)'></center></td>
+        <td><center><input type="radio" name="P7" value="5" onchange='variable(7)'></center></td>
+      </tr>
+      <tr>
+        <td> 8. Mi empresa prefiere emprender proyectos de inversi&oacute;n de riesgo alto ya que las expectativas de ingresos son mayores.</td>
+        <td><center><input type="radio" name="P8" value="1" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="P8" value="2" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="P8" value="3" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="P8" value="4" onchange='variable(8)'></center></td>
+        <td><center><input type="radio" name="P8" value="5" onchange='variable(8)'></center></td>
+      </tr>
+      <tr>
+        <td> 9. Cuando mi empresa se enfrenta a una decisi&oacute;n con  cierto grado de incertidumbre, suele adoptar una postura conservadora con el fin de minimizar el riesgo de una decisi&oacute;n equivocada.</td>
+        <td><center><input type="radio" name="P9" value="1" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="P9" value="2" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="P9" value="3" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="P9" value="4" onchange='variable(9)'></center></td>
+        <td><center><input type="radio" name="P9" value="5" onchange='variable(9)'></center></td>
+      </tr>
+    </tbody>
+  </table>
+</fieldset>
+
+<input type="submit" class="btn btn-default" value="Siguiente secci&oacute;n">
+</div>
+
+
+</form>
+
+</body>
+</html>
