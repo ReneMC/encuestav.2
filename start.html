@@ -4,12 +4,33 @@
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="resources/css/style.css" />
+<link rel="stylesheet" href="resources/css/style.css">
+<script src="resources/js/vendor/modernizr.js"></script>
 <title>T35T</title>
 </head>
 <body>
 
-	<div id="page">
-		<div id="content">
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">Facultad de Ciencias Administrativas</a></h1>
+    </li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class=""><a href="index">Inicio</a></li>
+			<li class="active"><a href="#">Datos</a></li>
+			<li class=""><a href="Cform">Encuesta</a></li>
+			<li class=""><a href="#">Final</a></li>
+    </ul>
+
+
+		<div id="content" class="small-12 columns">
 			<div class="post">
 				<h2 class="title">Datos de la empresa</h2>
 
@@ -19,7 +40,7 @@
 
 
 <form name="formulario" action="save.php" method="POST">
-	<input type="hidden" value="<?php echo $_GET[id_usuario]?>"  name="id_empresa" />         
+	<input type="hidden" value="<?php echo $_GET[id_usuario]?>"  name="id_empresa" />
 <fieldset>
     <legend>Datos de contacto</legend>
     <label>Nombre de la empresa:</label>
@@ -27,8 +48,6 @@
   <br>
     <label>Correo Electr&oacute;nico: </label><input type="text" class="form-control" name="mail" placeholder="ejemplo@correo.com" size="100" style="height:35" required>
   </fieldset>
-
-  <br>
 
   <fieldset>
     <legend>Datos Generales</legend>
@@ -330,12 +349,18 @@
 </table>
     </fieldset>
 
-      <input type="submit" class="btn btn-default" value="Siguiente secci&oacute;n">
+      <input type="submit" class="button" value="Siguiente secci&oacute;n">
     </form>
 
     </div>
 	 </div>
-  </div>
+
+
+	<div class="medium-12 columns">
+		Footer :)
+	</div>
+
+<script src="resources/js/foundation/foundation.topbar.js"></script>
 
 </body>
 </html>
