@@ -17,8 +17,8 @@ $puestoEncuestado=$_POST['puestoEncuestado'];
 $sexo=$_POST['sexo'];
 
 
-mysql_query("insert into alumnos(nombre,mail,codigocurso) values ('$_REQUEST[nombre]','$_REQUEST[mail]',$_REQUEST[codigocurso])",     $conexion) or die("Problemas en el select".mysql_error());
-mysql_close($conexion); echo "El alumno fue dad";
+//mysql_query("insert into alumnos(nombre,mail,codigocurso) values ('$_REQUEST[nombre]','$_REQUEST[mail]',$_REQUEST[codigocurso])",     $conexion) or die("Problemas en el select".mysql_error());
+//mysql_close($conexion); echo "El alumno fue dad";
 
 
 //session_start();
